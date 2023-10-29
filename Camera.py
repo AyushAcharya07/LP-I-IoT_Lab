@@ -2,7 +2,7 @@ from picamera import PiCamera
 from time import sleep
 
 camera=PiCamera()
-
+camera.setrotations(180)
 camera.start_preview()
 
 for i in range(2):
